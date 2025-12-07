@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://todo-backend-july.onrender.com";
 
 async function fetchService(route, options) {
   return fetch(BACKEND_URL + route, {
